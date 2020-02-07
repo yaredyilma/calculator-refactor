@@ -14,5 +14,5 @@ if (op == "add") {
     calculate = a * b;   
 }
 document.querySelector("#result").innerHTML = calculate;
-}
+}   
 
