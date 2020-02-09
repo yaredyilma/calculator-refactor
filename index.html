@@ -9,19 +9,23 @@
 </head>
 <body>
 
-  <form>
-    value 1: <input type="text" id="value1">
-    value 2: <input type="text" id="value2">
-    Operator: 
-    <select id="operator">
-      <option value="add">Add</option>
-      <option value="min">Minus</option>
-      <option value="div">Divide</option>
-      <option value="mul">Multiply</option> 
-    </select>
-    <button type="button" onclick="calc()">Calculate</button>
-  </form>
-  <div id="result"></div>
+  <div id="wrapper">
+    <form>
+      value 1: <input type="text" id="value1">
+      value 2: <input type="text" id="value2">
+      Operator: 
+      <select id="operator">
+        <option value="add">Add</option>
+        <option value="min">Minus</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option> 
+      </select>
+      <div id="button"><button type="button" onclick="calc()">Calculate</button></div>
+      <div id="result"></div>
+    </form>
+  </div>
+  
+</div>
   
 </body>
 <script src="main.js"></script>
